@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fff9f9;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(90deg, #05ff658c, #2c9fd471, #26e4e473, #ee696979, #26e4e473, #2c9fd471, #05ff658c);
+  background-size: 1500% 100%;
+  position:relative;
+  animation: change 18s ease infinite;
+
+}
+@keyframes change {
+    0%{
+        background-position: 0% 100%;
+    }
+    
+    100%{
+        background-position: 100% 0%;
+    }
+    0%{
+        background-position: 0% 100%;
+    }
+}
+
+
+
+
+
+.head h1{
+    font-size: 50px;
+
+    position:relative;
+    margin-top: 80px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.733);
+    background-position: center;
+    width: 195px;
+    height: 50px;
+    border-radius: 10%;
+
+    position: relative;
+    background: linear-gradient( #0000005e, #eeecec, #726f6f);
+    background-size: 800% 180%;
+    animation: words 3s ease infinite;
+
+
+}
+@keyframes words {
+   
+    0%{
+        background-position: 0% 100%;
+    }
+    
+    100%{
+        background-position: 100% 0%;
+    }
+    0%{
+        background-position: 0% 100%;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+<>
+
+
+
+
+
+
+div.background {
+    background: url(devops2.png) repeat;
+    border: 150px solid black;
+  }
+  
+  div.transbox {
+    padding: 0 0 20px;;
+    width:auto;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<>
+
+
+
+
+
+
+body{
+    background: #a5a5a5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+.mentor{
+    margin-top: 3%;
+    align-content:center;
+    margin-bottom: 10px;
+
+}
+.mentor h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(37, 37, 37);
+  }
+
+.mentor{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+.mentor .mentor_member{
+    background: rgb(202, 201, 201);
+    margin: 100px;
+    margin-bottom: 40px;
+    width: 350px;
+    padding: 50px;
+    line-height: 10px;
+    border-radius: 20%;
+    color: #726f6f;  
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+  
+ .mentor .mentor_member h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+  .mentor .mentor_member p.role{
+    color: rgb(80, 78, 78);
+    margin: 25px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.mentor .mentor_member .fa {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.mentor .mentor_member .fa:hover {
+    opacity: 0.5;
+}
+.mentor .mentor_member .fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+  
+.mentor .mentor_member .mentor_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(7, 7, 7);
+}
+  
+.mentor .mentor_member .mentor_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    margin-top: 5%;
+  }
+.wrapper h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  margin-bottom: 120px;
+  text-align:center;
+  color: rgb(0, 0, 0);
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: rgb(44, 44, 44);
+  margin: 5px;
+  margin-bottom: 80px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 9%;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #1395d1;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.team .team_member .fa {
+    padding: 10px;
+    font-size: 20px;
+    height: 30px;
+    margin-bottom: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.team .team_member .fa:hover {
+    opacity: 0.5;
+}
+.team .team_member .fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}

@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('NeoGeeks1.png') no-repeat center center fixed;
+    background-size: cover;
+    background-position:center;
+    font-family:sans-serif;
+     
+
+}
+.container{
+    text-align:right;
+    margin-top: 35px;
+    margin-right: 20px;
+
+}
+.aboutus{
+    
+    border: 1px solid rgb(253, 253, 253);
+    background:rgb(21, 92, 139);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 0.005px;
+    
+    
+
+}
+.aboutus:hover{
+    color: rgb(255, 255, 255);
+
+}
+.aboutus::before{
+    content: "";
+    position:absolute;
+    right: 0;
+    width: 10%;
+    height: 0%;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+    transition: 1s;
+}
+.aboutus::before{
+    top: o;
+    border-radius: 0 0 50% 50%;
+}
+.aboutus:hover::before{
+    height: 15%;
+}    
+.loginbox{
+    width: 350px;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.719);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px;
+    
+
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(7, 48, 65);
+    
+
+}
+h2{
+    color: rgb(255, 255, 255);
+    position:absolute;
+    right: 46%;
+    font-size:xx-large;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: rgb(0, 0, 0);
+    height: 25px;
+    font-size:medium;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: black;
+    outline-width:medium;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    font-size: x-large;
+    border-radius: 30px;
+
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+.loginbox a
+{
+
+
+
+
+
+    color: rgba(0, 0, 0, 0.541);
+    height: 50px;
+}
+.btn{
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+#box{
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    background-color: #303746;
+    box-shadow: 0 0 120px rgb(69, 147, 235);
+    font-size: 50px;
+    color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+    top: 160;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+
+}
+#box h1{
+    color: rgb(167, 162, 162);
+}
+.close{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #2e92cc;
+    display: inline-bloc;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginbox a:hover
+{
+    color: rgba(255, 255, 255, 0.733);
+}
+button :hover

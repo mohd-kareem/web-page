@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title> 
+          <link rel="stylesheet" type="text/css" href="log.css">
+
+        <body>
+            <div class="container">
+                <a href="C:\Users\Asus\OneDrive - Lovely Professional University\Desktop\web\about.html">
+                <button class="aboutus">About Us</button></a>
+                
+
+            </div>
+             <div class="loginbox">
+                 <img src="avtar.png" class="avatar">
+                 <h1>Login Here</h1>
+
+                 <form>
+                     <p>Username</p>
+                     <input type="text" name="" placeholder="Enter Username">
+                     <p>Password</p>
+                     <input type="password" name="" placeholder="Enter Password">
+
+                     <input type="submit" name="" value="Login">
+
+                     <a onclick="pop()" class="btn">Forgot Password</a>
+
+                     <div id="box">
+                         <span class=""></span>
+                         <h1>Are you a part of NeoGeeks?<br>
+                        ⨀ Because it is only accessable for NeoGeeks members.<br>
+                        ⨀ If you forgot your credentials then contact any other members of NeoGeeks<br>
+                        ⨀ You can find their contact details by simply clicking AboutUs.<br>
+                           hint:-(neogeeks official ID)<br>
+
+                        <br>
+                        THANK YOU...
+                        </h1>
+
+                         <a onclick="pop()" class="close">Close</a>
+
+                     </div>
+                     <script type="text/javascript">
+                     var c = 0;
+                     function pop(){
+                         if(c == 0){
+                             document.getElementById("box").style.display = "block";
+                             c = 1;
+                         }
+                         else{
+                            document.getElementById("box").style.display = "none";
+                             c = 0;
+                         }
+                     }
+
+                    </script>
+                     
+                    
+                 </form>
+
+             </div>
+
+        </body>
+    </head>
+</html>
